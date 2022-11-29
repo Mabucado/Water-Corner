@@ -1,0 +1,68 @@
+<!doctype>
+<html>
+<head>
+
+<title>
+ Slide Show
+</title>
+<head >
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+<meta http-equiv="refresh" content="100">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<font size="50" >
+<h1>
+<div id="img">
+<img width="150" height="150" src=logo.jpg>
+</div>
+<div id="head">
+
+<u>Water Corner</u>
+</div>
+
+</h1>
+</head>
+<body><style>body{background-image:url('img.png');
+background-repeat:no-repeat;
+background-attachment:fixed;
+background-position:center;
+background-size:cover;
+}</style>
+ <img class="mySlides" src=285624821_790298562347271_3172150560631620064_n.jpg>
+    <img class="mySlides"  src=285556622_790298565680604_5677001942812891478_n.jpg >
+    <img class="mySlides"  src=282647217_786617676048693_3739914181720643917_n.jpg >
+    <img class="mySlides" src=284374301_786617636048697_3335640524012763207_n.jpg >
+    <img class="mySlides" src=273927292_720357256008069_3792188860509710603_n.jpg >
+    <img class="mySlides"  src=282050636_790298559013938_7901981377126707481_n.jpg >
+    <img class="mySlides"  src=269612021_681612313215897_6920285362095553729_n.jpg >
+    <img class="mySlides"  src=248376146_660634451980350_3157832949175201712_n.jpg >
+    <img class="mySlides"  src=293977310_820746439302483_1935158156834137186_n.jpg >
+    <img class="mySlides" src=293984437_820745979302529_6942826988772334792_n.jpg >
+    <img class="mySlides"  src=294000211_820746379302489_1823137461236895658_n.jpg >
+    <img class="mySlides"  src=294036781_820745922635868_6750461917922161744_n.jpg >
+<button class="left-button" onclick="plusDivs(-1)">&#10094;</button>
+<button class="right-button" onclick="plusDivs(+1)">&#10095;</button>
+<div class="buttonLink">
+<a  href="Gallery.html" >X</a>
+</div>
+</body>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+</script>
+</html>

@@ -1,0 +1,15 @@
+<!doctype>
+<html>
+<title>Home Page</title>
+<head >
+<meta http-equiv="refresh" content="100">
+<font color="red">
+<h1>
+<img width="70" height="60" src=logo.jpg>
+<font face="algerian" size="30"><u>Water Corner</u></font>
+
+</font>
+</h1>
+</head>
+<body><style>body{background-image:url('img.png');}</style>
+<iframe src=>

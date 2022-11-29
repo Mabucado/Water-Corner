@@ -1,0 +1,139 @@
+<!doctype>
+<html>
+<title>Gallary</title>
+<head >
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" type="image/x-icon" href="logo.jpg" />
+<meta http-equiv="refresh" content="100"><div id="img">
+<img width="150" height="150" src=logo.jpg>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</div>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<h1><div id="head">
+<u>Water Corner</u>
+</div>
+</h1>
+
+</head>
+<body><style>body{background-image:url('img.png');}</style>
+<div id="body1">
+<div class="Full-Img" id="FullImgBox">
+<img width="600" height="600" src=285624821_790298562347271_3172150560631620064_n.jpg id="FullImg">
+<span class="close" onclick="closeFullImg()">X </span>
+<a class="next" href="Retry.html">next</a>
+<a class="prevous" href="Retry.html">prev</a>
+</div>
+<table class="table"><font size="15">
+<tr>
+<th>Work</th>
+<td><img class="mySlide" width="300" height="300" src=285624821_790298562347271_3172150560631620064_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=285556622_790298565680604_5677001942812891478_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=282647217_786617676048693_3739914181720643917_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=284374301_786617636048697_3335640524012763207_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=273927292_720357256008069_3792188860509710603_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300"  src=282050636_790298559013938_7901981377126707481_n.jpg onclick="openFullImg(this.src)"></td>
+</tr>
+<tr>
+<th>Merch</th>
+
+<td><img class="mySlide" width="300" height="300" src=269612021_681612313215897_6920285362095553729_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=248376146_660634451980350_3157832949175201712_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=293977310_820746439302483_1935158156834137186_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=293984437_820745979302529_6942826988772334792_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=294000211_820746379302489_1823137461236895658_n.jpg onclick="openFullImg(this.src)"></td>
+<td><img class="mySlide" width="300" height="300" src=294036781_820745922635868_6750461917922161744_n.jpg onclick="openFullImg(this.src)"></td>
+
+</tr>
+<tr>
+<th>Video<th>
+<td><video controls muted><source src="131322315_431019308259929_1811303638265497276_n.mp4" type="video/mp4">
+<source src="131322315_431019308259929_1811303638265497276_n.ogg" type="video/ogg"
+</video></td>
+<td>
+<video controls muted><source src="119616748_331668481444552_3249408572011732102_n.mp4" type="video/mp4">
+<source src="119616748_331668481444552_3249408572011732102_n.ogg" type="video/ogg"
+</video>
+</td>
+<td>
+<video controls muted><source src="133674025_3476403749154736_6633303738127504177_n.mp4" type="video/mp4">
+<source src="133674025_3476403749154736_6633303738127504177_n.ogg" type="video/ogg"
+</video>
+</td>
+<td>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wMfxggN1qBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</td>
+
+</font>
+</table>
+
+
+
+<script>
+
+let FullImgBox=document.getElementById("FullImgBox");
+let FullImg=document.getElementById("FullImg");
+let Display=document.getElementByClassName("container");
+let Table=document.getElementByClassName("table");
+function openFullImg(pic){
+FullImgBox.style.display="flex";
+FullImg.src=pic;
+} 
+function closeFullImg(){
+FullImgBox.style.display="none";
+}
+
+
+
+
+
+
+</script>
+<br/>
+<br/>
+</body><br/><div class="links" style="text-align:center;">
+<a href="Home Page.html">Home Page</a>
+<a href="About US.html">About</a>
+<a href="Contact Us.html">Contact</a>
+<a href="Find US.html">Find Us</a>
+<a href="Our Work.html">Our Work</a>
+</div>
+
+<br/>
+
+<div id="footer">
+
+<footer>
+Copyright © 2021,Sibusiso Mathebula
+</footer>
+</div>
+</html>
+<!-- <div class="mySlides">
+    <div class="numbertext">7 / 12</div>
+    <img width="300" height="300" src=269612021_681612313215897_6920285362095553729_n.jpg >
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">8 / 12</div>
+    <img width="300" height="300" src=248376146_660634451980350_3157832949175201712_n.jpg>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">9 / 12</div>
+    <img width="300" height="300" src=293977310_820746439302483_1935158156834137186_n.jpg>
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">10 / 12</div>
+   <img width="300" height="300" src=293984437_820745979302529_6942826988772334792_n.jpg>
+  </div>
+
+  <div class="mySlides">
+    <div class="numbertext">11 / 12</div>
+    <img width="300" height="300" src=294000211_820746379302489_1823137461236895658_n.jpg >
+  </div>
+    
+  <div class="mySlides">
+    <div class="numbertext">12 / 12</div>
+    <img width="300" height="300" src=294036781_820745922635868_6750461917922161744_n.jpg>
+    -->
